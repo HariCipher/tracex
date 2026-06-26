@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+tracex.db
+dashboard.html
+*.evtx
+*.db
+dist/
+build/
+*.egg-info/
