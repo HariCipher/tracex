@@ -1,13 +1,10 @@
 #!/bin/bash
-echo "Setting up TRACEX environment..."
-
+echo "Setting up TRACEX..."
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-
+pip install -e .
 echo ""
-echo "Done. Run with:"
+echo "Done. Activate venv and run with:"
 echo "  source .venv/bin/activate"
-echo "  pip install -e ."
 echo "  tracex yourfile.evtx"
-echo "  tracex --help for more options"
