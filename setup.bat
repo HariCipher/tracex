@@ -1,7 +1,7 @@
 @echo off
-echo Installing TRACEX dependencies...
+echo Setting up TRACEX...
 pip install -r requirements.txt
-echo pip install -e .
+pip install -e .
+echo.
 echo Done. Run with: tracex yourfile.evtx
-echo tracex --help for more options
 pause
