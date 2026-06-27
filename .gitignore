@@ -10,3 +10,4 @@ dashboard.html
 dist/
 build/
 *.egg-info/
+screenshots/
